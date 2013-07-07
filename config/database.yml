@@ -17,8 +17,9 @@ development:
   encoding: unicode
   database: fandangr_development
   pool: 5
-  username: fandangr
-  password:
+  username: x
+  password: 5544
+  host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +44,6 @@ test:
   encoding: unicode
   database: fandangr_test
   pool: 5
-  username: fandangr
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: fandangr_production
-  pool: 5
-  username: fandangr
-  password:
+  username: x
+  password: 5544
+  host: localhost
