@@ -6,4 +6,5 @@ Fandangr::Application.routes.draw do
   resources :tickets
   resources :movies
 
+  root :to => "movies#index"
 end
