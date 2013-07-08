@@ -149,6 +149,7 @@ DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   better_errors
   binding_of_caller
+  debugger
   jquery-rails
   meta_request
   pg
