@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: showtimes
+#
+#  id         :integer          not null, primary key
+#  date       :date
+#  start_time :time
+#  movie_id   :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Showtime < ActiveRecord::Base
   attr_accessible :date, :movie_id, :start_time
 
